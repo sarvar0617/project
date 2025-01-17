@@ -31,7 +31,7 @@ ul {
 }
 .footer .top-section {
   background-color: #6eaee3;
-  height: 360px;
+  height: 380px;
   border-radius: 24px;
   display: flex;
   justify-content: space-between;
@@ -101,6 +101,7 @@ ul {
 }
 .home .home-left h1 {
   font-size: 90px;
+  font-family: ubuntu;
 }
 .home .home-left .top-he {
   max-width: 796px;
@@ -182,6 +183,7 @@ ul {
 }
 .header nav li {
   cursor: pointer;
+  font-family: roboto;
 }
 .header nav li:hover {
   opacity: 80%;
@@ -417,7 +419,7 @@ ul {
   height: 80px;
   font-size: 24px;
   font-weight: 600;
-  background-color: #E2AC8B;
+  background-color: #e2ac8b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -437,10 +439,16 @@ ul {
   justify-content: center;
   border-radius: 34px;
   font-family: poppins;
+  gap: 10px;
+  transition: 0.5s;
+}
+.button-shop:hover {
+  background-color: rgba(29, 219, 162, 0.8431372549);
+  transform: scale(1.2);
 }
 
 .button-color {
-  background-color: #F7926E;
+  background-color: #f7926e;
 }
 
 @media (max-width: 768px) {
