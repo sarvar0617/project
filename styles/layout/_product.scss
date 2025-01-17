@@ -1,15 +1,21 @@
 .product{
     display: flex;
     padding: 0;
-    justify-content: space-between;
+gap: 27px;
     margin-top: 40px;
     flex-wrap:wrap ;
+    justify-content: center;
   .title-product{
     h1{
         font-size: 64px;
         font-family: roboto;
         color: white;
         width: 430px;
+    }
+    @media (max-width:1024px) {
+        h1{
+            font-size: 45px;
+        }
     }
   }
     .img-product{
@@ -34,10 +40,6 @@
             justify-content: center;
             .photo-product{
                 width: 100%;
-                img{
-                    
-                  
-                }
             }
         }
     }
