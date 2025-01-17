@@ -59,6 +59,25 @@ ul {
 .footer .top-section .left-foot .img-top-foot img {
   width: 100%;
 }
+.footer .bottom-section {
+  margin-top: 20px;
+  background-color: #262626;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  font-family: roboto;
+  height: 200px;
+  align-items: center;
+}
+.footer .bottom-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .bottom-section ul li {
+  color: white;
+}
 
 @media (max-width: 854px) {
   .footer .top-section {

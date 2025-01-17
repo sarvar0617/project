@@ -35,6 +35,25 @@
       }
     }
   }
+  .bottom-section{
+    margin-top: 20px;
+    background-color: #262626;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    font-family: roboto;
+    height: 200px;
+    align-items: center;
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 10px ;
+      li{
+        color: white;
+      }
+    }
+  }
 }
 @media (max-width:854px) {
     .footer{
